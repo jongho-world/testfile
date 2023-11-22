@@ -1,0 +1,9 @@
+div {
+  background-color: green;
+  color:white;
+  height:200px;
+  aspect-ratio: 1;
+  border-radius: 10%;
+  line-height: 200px;
+  text-align: center;
+}
