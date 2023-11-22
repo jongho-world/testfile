@@ -30,6 +30,8 @@ console.log("Requesting URL:", EM_url);
 function Dropoff(){
   fetch(EM_url,{
     method: "POST",
+    credentials: 'include',
+    mode: 'cors',
     //mode: 'no-cors',  // CORS 문제 해결을 위해 추가
     // agent: new (require('https')).Agent({ rejectUnauthorized: false }),
     headers:{
