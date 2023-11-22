@@ -63,5 +63,3 @@ function Dropoff(){
 }
 
 document.querySelector('div').addEventListener('click',Dropoff());
-
-s
