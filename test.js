@@ -6,7 +6,7 @@ const ITK_PORT=8443;
 const d_resource="/Dropoff"
 
 // url: End Point 
-const EM_url="https://"+EM_IP+":"+ITK_PORT+d_resource;
+const EM_url=`https://${EM_IP}:${ITK_PORT}${d_resource}`
 
 const dropoff_body={
     "robot": "Sim108",
