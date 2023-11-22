@@ -3,19 +3,10 @@ const R2_IP="192.168.1.108";
 const ITK_PORT=8443;
 
 // Resource
-const pd_resource="PickupDropoff"
 const d_resource="/Dropoff"
 
 // url: End Point 
 const EM_url="https://"+EM_IP+":"+ITK_PORT+d_resource;
-
-// JSON body (pickupdropoff)
-const pd_body={
-  "pickupGoal": "Goal1",
-  "pickupPriority": 10,
-  "dropoffGoal": "Goal2",
-  "dropoffPriority": 20
-};
 
 const dropoff_body={
     "robot": "Sim108",
